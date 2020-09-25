@@ -1,0 +1,304 @@
+pk,item id,size/color,value (color name/ size number),image 
+1,1,color,blue,images/mens casual shirts 1 blue.jpg
+2,1,color,brown,images/mens casual shirts 1 brown.jpg
+3,1,color,dusty green,images/mens casual shirts 1 dusty green.jpg
+4,1,color,dusty orange,images/mens casual shirts 1 dusty orange.jpg
+5,1,color,dusty pink,images/mens casual shirts 1 dusty pink.jpg
+6,1,color,sky blue,images/mens casual shirts 1 sky blue.jpg
+7,2,color,black maroon,images/mens casual shirt 2 black-maroon.jpg
+8,2,color,blue,images/mens casual shirt 2 blue.jpg
+9,2,color,red black,images/mens casual shirt 2 red black.jpg
+10,2,color,white grey,images/mens casual shirt 2 white-grey.jpg
+11,3,color,blue green,images/mens casual shirt 3 blue-green.jpg
+12,3,color,blue red,images/mens casual shirt 3 blue-red.jpg
+13,3,color,brown,images/mens casual shirt 3 Brown.jpg
+14,4,color,dark cyan,images/mens casual shirt 4 dark cyan.jpg
+15,4,color,navy,images/mens casual shirt 4 navy.jpg
+16,4,color,purple,images/mens casual shirt 4 purple.jpg
+17,4,color,red,images/mens casual shirt 4 red.jpg
+18,5,color,beige,images/mens casual shirt 5 6 7 beige.jpg
+19,5,color,blue,images/mens casual shirt 5 6 7 blue.jpg
+20,5,color,green,images/mens casual shirt 5 6 7 green.jpg
+21,5,color,navy blue,images/mens casual shirt 5 6 7 navy blue.jpg
+22,5,color,rama,images/mens casual shirt 5 6 7 rama.jpg
+23,5,color,red,images/mens casual shirt 5 6 7 red.jpg
+24,5,color,sky blue,images/mens casual shirt 5 6 7 sky blue.jpg
+25,5,color,white,images/mens casual shirt 5 6 7 white.jpg
+26,6,color,beige,images/mens casual shirt 5 6 7 beige.jpg
+27,6,color,blue,images/mens casual shirt 5 6 7 blue.jpg
+28,6,color,green,images/mens casual shirt 5 6 7 green.jpg
+29,6,color,navy blue,images/mens casual shirt 5 6 7 navy blue.jpg
+30,6,color,rama,images/mens casual shirt 5 6 7 rama.jpg
+31,6,color,red,images/mens casual shirt 5 6 7 red.jpg
+32,6,color,sky blue,images/mens casual shirt 5 6 7 sky blue.jpg
+33,6,color,white,images/mens casual shirt 5 6 7 white.jpg
+34,7,color,beige,images/mens casual shirt 5 6 7 beige.jpg
+35,7,color,blue,images/mens casual shirt 5 6 7 blue.jpg
+36,7,color,green,images/mens casual shirt 5 6 7 green.jpg
+37,7,color,navy blue,images/mens casual shirt 5 6 7 navy blue.jpg
+38,7,color,rama,images/mens casual shirt 5 6 7 rama.jpg
+39,7,color,red,images/mens casual shirt 5 6 7 red.jpg
+40,7,color,sky blue,images/mens casual shirt 5 6 7 sky blue.jpg
+41,7,color,white,images/mens casual shirt 5 6 7 white.jpg
+42,8,color,black dusty green,images/mens casual shirt 8 black-dustygreen.jpg
+43,8,color,navy brown,images/mens casual shirt 8 navy-brown.jpg
+44,8,color,red black,images/mens casual shirt 8 red-black.jpg
+45,9,color,blue,images/mens casual shirt 9 blue.jpg
+46,9,color,grey,images/mens casual shirt 9 grey.jpg
+47,9,color,red,images/mens casual shirt 9 red.jpg
+48,10,color,olive,images/mens casual shirt 10 olive.jpg
+49,10,color,white,images/mens casual shirt 10 white.jpg
+50,11,color,blue,images/mens formal shirt 1 4 5 6 7 9 10 blue.jpg
+51,11,color,dark blue,images/mens formal shirt 1 4 5 6 7 9 10 dark blue.jpg
+52,11,color,grey,images/mens formal shirt 1 4 5 6 7 9 10 grey.jpg
+53,11,color,maroon,images/mens formal shirt 1 4 5 6 7 9 10 maroon.jpg
+54,11,color,navy,images/mens formal shirt 1 4 5 6 7 9 10 navy.jpg
+55,11,color,sky blue,images/mens formal shirt 1 4 5 6 7 9 10 sky blue.jpg
+56,11,color,white,images/mens formal shirt 1 4 5 6 7 9 10 white.jpg
+57,14,color,blue,images/mens formal shirt 1 4 5 6 7 9 10 blue.jpg
+58,14,color,dark blue,images/mens formal shirt 1 4 5 6 7 9 10 dark blue.jpg
+59,14,color,grey,images/mens formal shirt 1 4 5 6 7 9 10 grey.jpg
+60,14,color,maroon,images/mens formal shirt 1 4 5 6 7 9 10 maroon.jpg
+61,14,color,navy,images/mens formal shirt 1 4 5 6 7 9 10 navy.jpg
+62,14,color,sky blue,images/mens formal shirt 1 4 5 6 7 9 10 sky blue.jpg
+63,14,color,white,images/mens formal shirt 1 4 5 6 7 9 10 white.jpg
+64,15,color,blue,images/mens formal shirt 1 4 5 6 7 9 10 blue.jpg
+65,15,color,dark blue,images/mens formal shirt 1 4 5 6 7 9 10 dark blue.jpg
+66,15,color,grey,images/mens formal shirt 1 4 5 6 7 9 10 grey.jpg
+67,15,color,maroon,images/mens formal shirt 1 4 5 6 7 9 10 maroon.jpg
+68,15,color,navy,images/mens formal shirt 1 4 5 6 7 9 10 navy.jpg
+69,15,color,sky blue,images/mens formal shirt 1 4 5 6 7 9 10 sky blue.jpg
+70,15,color,white,images/mens formal shirt 1 4 5 6 7 9 10 white.jpg
+71,16,color,blue,images/mens formal shirt 1 4 5 6 7 9 10 blue.jpg
+72,16,color,dark blue,images/mens formal shirt 1 4 5 6 7 9 10 dark blue.jpg
+73,16,color,grey,images/mens formal shirt 1 4 5 6 7 9 10 grey.jpg
+74,16,color,maroon,images/mens formal shirt 1 4 5 6 7 9 10 maroon.jpg
+75,16,color,navy,images/mens formal shirt 1 4 5 6 7 9 10 navy.jpg
+76,16,color,sky blue,images/mens formal shirt 1 4 5 6 7 9 10 sky blue.jpg
+77,16,color,white,images/mens formal shirt 1 4 5 6 7 9 10 white.jpg
+78,17,color,blue,images/mens formal shirt 1 4 5 6 7 9 10 blue.jpg
+79,17,color,dark blue,images/mens formal shirt 1 4 5 6 7 9 10 dark blue.jpg
+80,17,color,grey,images/mens formal shirt 1 4 5 6 7 9 10 grey.jpg
+81,17,color,maroon,images/mens formal shirt 1 4 5 6 7 9 10 maroon.jpg
+82,17,color,navy,images/mens formal shirt 1 4 5 6 7 9 10 navy.jpg
+83,17,color,sky blue,images/mens formal shirt 1 4 5 6 7 9 10 sky blue.jpg
+84,17,color,white,images/mens formal shirt 1 4 5 6 7 9 10 white.jpg
+85,19,color,blue,images/mens formal shirt 1 4 5 6 7 9 10 blue.jpg
+86,19,color,dark blue,images/mens formal shirt 1 4 5 6 7 9 10 dark blue.jpg
+87,19,color,grey,images/mens formal shirt 1 4 5 6 7 9 10 grey.jpg
+88,19,color,maroon,images/mens formal shirt 1 4 5 6 7 9 10 maroon.jpg
+89,19,color,navy,images/mens formal shirt 1 4 5 6 7 9 10 navy.jpg
+90,19,color,sky blue,images/mens formal shirt 1 4 5 6 7 9 10 sky blue.jpg
+91,19,color,white,images/mens formal shirt 1 4 5 6 7 9 10 white.jpg
+92,20,color,blue,images/mens formal shirt 1 4 5 6 7 9 10 blue.jpg
+93,20,color,dark blue,images/mens formal shirt 1 4 5 6 7 9 10 dark blue.jpg
+94,20,color,grey,images/mens formal shirt 1 4 5 6 7 9 10 grey.jpg
+95,20,color,maroon,images/mens formal shirt 1 4 5 6 7 9 10 maroon.jpg
+96,20,color,navy,images/mens formal shirt 1 4 5 6 7 9 10 navy.jpg
+97,20,color,sky blue,images/mens formal shirt 1 4 5 6 7 9 10 sky blue.jpg
+98,20,color,white,images/mens formal shirt 1 4 5 6 7 9 10 white.jpg
+99,12,color,black,images/mens formal shirt 2 3 black.jpg
+100,12,color,blue,images/mens formal shirt 2 3 blue.jpg
+101,12,color,maroon,images/mens formal shirt 2 3 maroon.jpg
+102,12,color,navy,images/mens formal shirt 2 3 navy.jpg
+103,12,color,white,images/mens formal shirt 2 3 white.jpg
+104,13,color,black,images/mens formal shirt 2 3 black.jpg
+105,13,color,blue,images/mens formal shirt 2 3 blue.jpg
+106,13,color,maroon,images/mens formal shirt 2 3 maroon.jpg
+107,13,color,navy,images/mens formal shirt 2 3 navy.jpg
+108,13,color,white,images/mens formal shirt 2 3 white.jpg
+109,18,color,blue,images/mens formal shirt 8 blue.jpg
+110,18,color,maroon,images/mens formal shirt 8 maroon.jpg
+111,18,color,sky blue,images/mens formal shirt 8 sky blue.jpg
+112,18,color,white,images/mens formal shirt 8 white.jpg
+113,21,color,black,images/mens formal pant 1 7 8 black.jpg
+114,21,color,dark grey,images/mens formal pant 1 7 8 dark grey.jpg
+115,21,color,green,images/mens formal pant 1 7 8 green.jpg
+116,21,color,grey,images/mens formal pant 1 7 8 grey.jpg
+117,21,color,light grey,images/mens formal pant 1 7 8 light grey.jpg
+118,21,color,navy blue,images/mens formal pant 1 7 8 navy blue.jpg
+119,21,color,silver,images/mens formal pant 1 7 8 silver.jpg
+120,21,color,white,images/mens formal pant 1 7 8 white.jpg
+121,27,color,black,images/mens formal pant 1 7 8 black.jpg
+122,27,color,dark grey,images/mens formal pant 1 7 8 dark grey.jpg
+123,27,color,green,images/mens formal pant 1 7 8 green.jpg
+124,27,color,grey,images/mens formal pant 1 7 8 grey.jpg
+125,27,color,light grey,images/mens formal pant 1 7 8 light grey.jpg
+126,27,color,navy blue,images/mens formal pant 1 7 8 navy blue.jpg
+127,27,color,silver,images/mens formal pant 1 7 8 silver.jpg
+128,27,color,white,images/mens formal pant 1 7 8 white.jpg
+129,28,color,black,images/mens formal pant 1 7 8 black.jpg
+130,28,color,dark grey,images/mens formal pant 1 7 8 dark grey.jpg
+131,28,color,green,images/mens formal pant 1 7 8 green.jpg
+132,28,color,grey,images/mens formal pant 1 7 8 grey.jpg
+133,28,color,light grey,images/mens formal pant 1 7 8 light grey.jpg
+134,28,color,navy blue,images/mens formal pant 1 7 8 navy blue.jpg
+135,28,color,silver,images/mens formal pant 1 7 8 silver.jpg
+136,28,color,white,images/mens formal pant 1 7 8 white.jpg
+137,23,color,black,images/mens formal pant 3 4 6 9 10 black.jpg
+138,23,color,blue,images/mens formal pant 3 4 6 9 10 blue.jpg
+139,23,color,brown,images/mens formal pant 3 4 6 9 10 brown.jpg
+140,23,color,cream,images/mens formal pant 3 4 6 9 10 cream.jpg
+141,23,color,dark blue,images/mens formal pant 3 4 6 9 10 dark blue.jpg
+142,23,color,navy,images/mens formal pant 3 4 6 9 10 navy.jpg
+143,23,color,sand,images/mens formal pant 3 4 6 9 10 sand.jpg
+144,24,color,black,images/mens formal pant 3 4 6 9 10 black.jpg
+145,24,color,blue,images/mens formal pant 3 4 6 9 10 blue.jpg
+146,24,color,brown,images/mens formal pant 3 4 6 9 10 brown.jpg
+147,24,color,cream,images/mens formal pant 3 4 6 9 10 cream.jpg
+148,24,color,dark blue,images/mens formal pant 3 4 6 9 10 dark blue.jpg
+149,24,color,navy,images/mens formal pant 3 4 6 9 10 navy.jpg
+150,24,color,sand,images/mens formal pant 3 4 6 9 10 sand.jpg
+151,26,color,black,images/mens formal pant 3 4 6 9 10 black.jpg
+152,26,color,blue,images/mens formal pant 3 4 6 9 10 blue.jpg
+153,26,color,brown,images/mens formal pant 3 4 6 9 10 brown.jpg
+154,26,color,cream,images/mens formal pant 3 4 6 9 10 cream.jpg
+155,26,color,dark blue,images/mens formal pant 3 4 6 9 10 dark blue.jpg
+156,26,color,navy,images/mens formal pant 3 4 6 9 10 navy.jpg
+157,26,color,sand,images/mens formal pant 3 4 6 9 10 sand.jpg
+158,29,color,black,images/mens formal pant 3 4 6 9 10 black.jpg
+159,29,color,blue,images/mens formal pant 3 4 6 9 10 blue.jpg
+160,29,color,brown,images/mens formal pant 3 4 6 9 10 brown.jpg
+161,29,color,cream,images/mens formal pant 3 4 6 9 10 cream.jpg
+162,29,color,dark blue,images/mens formal pant 3 4 6 9 10 dark blue.jpg
+163,29,color,navy,images/mens formal pant 3 4 6 9 10 navy.jpg
+164,29,color,sand,images/mens formal pant 3 4 6 9 10 sand.jpg
+165,25,color,blue,images/mens formal pant 5 blue.jpg
+166,25,color,coffee,images/mens formal pant 5 coffee.jpg
+167,25,color,grey,images/mens formal pant 5 grey.jpg
+168,22,color,beige,images/mens formal pant 2 belge.jpg
+169,22,color,brown,images/mens formal pant 2 brown.jpg
+170,22,color,light beige,images/mens formal pant 2 light belge.jpg
+171,31,color,black,images/mens casual pants 1 4 6 black.jpg
+172,31,color,blue,images/mens casual pants 1 4 6 blue.jpg
+173,31,color,brown,images/mens casual pants 1 4 6 brown.jpg
+174,31,color,dark blue,images/mens casual pants 1 4 6 dark  blue.jpg
+175,31,color,green,images/mens casual pants 1 4 6 green.jpg
+176,31,color,light blue,images/mens casual pants 1 4 6 light blue.jpg
+177,34,color,black,images/mens casual pants 1 4 6 black.jpg
+178,34,color,blue,images/mens casual pants 1 4 6 blue.jpg
+179,34,color,brown,images/mens casual pants 1 4 6 brown.jpg
+180,34,color,dark blue,images/mens casual pants 1 4 6 dark  blue.jpg
+181,34,color,green,images/mens casual pants 1 4 6 green.jpg
+182,34,color,light blue,images/mens casual pants 1 4 6 light blue.jpg
+183,36,color,black,images/mens casual pants 1 4 6 black.jpg
+184,36,color,blue,images/mens casual pants 1 4 6 blue.jpg
+185,36,color,brown,images/mens casual pants 1 4 6 brown.jpg
+186,36,color,dark blue,images/mens casual pants 1 4 6 dark  blue.jpg
+187,36,color,green,images/mens casual pants 1 4 6 green.jpg
+188,36,color,light blue,images/mens casual pants 1 4 6 light blue.jpg
+189,32,color,brown,images/mens casual pants 2 3 brown.jpg
+190,32,color,grey,images/mens casual pants 2 3 grey.jpg
+191,32,color,light grey,images/mens casual pants 2 3 light grey.jpg
+192,33,color,brown,images/mens casual pants 2 3 brown.jpg
+193,33,color,grey,images/mens casual pants 2 3 grey.jpg
+194,33,color,light grey,images/mens casual pants 2 3 light grey.jpg
+195,35,color,black,images/mens casual pants 5 7 8 black.jpg
+196,35,color,blue,images/mens casual pants 5 7 8 blue.jpg
+197,35,color,dark blue,images/mens casual pants 5 7 8 dark  blue.jpg
+198,37,color,black,images/mens casual pants 5 7 8 black.jpg
+199,37,color,blue,images/mens casual pants 5 7 8 blue.jpg
+200,37,color,dark blue,images/mens casual pants 5 7 8 dark  blue.jpg
+201,38,color,black,images/mens casual pants 5 7 8 black.jpg
+202,38,color,blue,images/mens casual pants 5 7 8 blue.jpg
+203,38,color,dark blue,images/mens casual pants 5 7 8 dark  blue.jpg
+204,39,color,blue,images/mens casual pants 9 10 blue.jpg
+205,39,color,brown,images/mens casual pants 9 10 brown.jpg
+206,39,color,green,images/mens casual pants 9 10 green.jpg
+207,39,color,white,images/mens casual pants 9 10 white.jpg
+208,40,color,blue,images/mens casual pants 9 10 blue.jpg
+209,40,color,brown,images/mens casual pants 9 10 brown.jpg
+210,40,color,green,images/mens casual pants 9 10 green.jpg
+211,40,color,white,images/mens casual pants 9 10 white.jpg
+212,41,color,black red,images/mens sports footwear 1 black red.jpg
+213,41,color,green red,images/mens sports footwear 1 green red.jpg
+214,41,color,grey,images/mens sports footwear 1 grey.jpg
+215,41,color,grey black,images/mens sports footwear 1 grey black.jpg
+216,41,color,white,images/mens sports footwear 1 white blue.jpg
+217,42,color,black,images/mens sports footwear 2 black.jpg
+218,42,color,blue,images/mens sports footwear 2 blue.jpg
+219,42,color,grey,images/mens sports footwear 2 grey.jpg
+220,42,color,yellow,images/mens sports footwear 2 yellow.jpg
+221,43,color,black,images/mens sports footwear 3 black.jpg
+222,43,color,brown,images/mens sports footwear 3 brown.jpg
+223,43,color,grey,images/mens sports footwear 3 grey.jpg
+224,43,color,multi,images/mens sports footwear 3 multi.jpg
+225,43,color,navy,images/mens sports footwear 3 navy.jpg
+226,44,color,black green,images/mens sports footwear 4 black green.jpg
+227,44,color,navy blue,images/mens sports footwear 4 navy blue.jpg
+228,44,color,white,images/mens sports footwear 4 white.jpg
+229,45,color,black,images/mens sports footwear 5 black.jpg
+230,45,color,blue,images/mens sports footwear 5 blue.jpg
+231,45,color,dark grey,images/mens sports footwear 5 dark grey.jpg
+232,45,color,navy,images/mens sports footwear 5 navy.jpg
+233,46,color,black,images/mens sports footwear 6 9 black.jpg
+234,46,color,grey,images/mens sports footwear 6 9 grey.jpg
+235,46,color,navy,images/mens sports footwear 6 9 navy.jpg
+236,46,color,navy sky,images/mens sports footwear 6 9 navy sky.jpg
+237,46,color,red,images/mens sports footwear 6 9 red.jpg
+238,46,color,sea green,images/mens sports footwear 6 9 sea green.jpg
+239,49,color,black,images/mens sports footwear 6 9 black.jpg
+240,49,color,grey,images/mens sports footwear 6 9 grey.jpg
+241,49,color,navy,images/mens sports footwear 6 9 navy.jpg
+242,49,color,navy sky,images/mens sports footwear 6 9 navy sky.jpg
+243,49,color,red,images/mens sports footwear 6 9 red.jpg
+244,49,color,sea green,images/mens sports footwear 6 9 sea green.jpg
+245,47,color,black,images/mens sports footwear 7 black.jpg
+246,47,color,navy blue,images/mens sports footwear 7 navy blue.jpg
+247,48,color,black,images/mens sports footwear 8 black.jpg
+248,48,color,white,images/mens sports footwear 8 white.jpg
+249,50,color,black orange,images/mens sports footwear 10 black orange.jpg
+250,50,color,grey blue,images/mens sports footwear 10 grey blue.jpg
+251,50,color,navy blue,images/mens sports footwear 10 navy blue.jpg
+252,51,color,navy,images/mens casual footwear 1 navy.jpg
+253,51,color,tan,images/mens casual footwear 1 tan.jpg
+254,52,color,navy,images/mens casual footwear 2 navy.jpg
+255,52,color,tan,images/mens casual footwear 2 tan.jpg
+256,53,color,black,images/mens casual footwear 3 black.jpg
+257,53,color,light blue,images/mens casual footwear 3 light blue.jpg
+258,54,color,blue,images/mens casual footwear 4 blue.jpg
+259,54,color,grey,images/mens casual footwear 4 grey.jpg
+260,55,color,black,images/mens casual footwear 5 6 black.jpg
+261,55,color,brown,images/mens casual footwear 5 6 brown.jpg
+262,55,color,tan,images/mens casual footwear 5 6 tan.jpg
+263,56,color,black,images/mens casual footwear 5 6 black.jpg
+264,56,color,brown,images/mens casual footwear 5 6 brown.jpg
+265,56,color,tan,images/mens casual footwear 5 6 tan.jpg
+266,57,color,black red,images/mens casual footwear 7 8 9 black red.jpg
+267,57,color,blue,images/mens casual footwear 7 8 9 blue.jpg
+268,57,color,dark blue,images/mens casual footwear 7 8 9 dark blue.jpg
+269,57,color,olive,images/mens casual footwear 7 8 9 olive.jpg
+270,58,color,black red,images/mens casual footwear 7 8 9 black red.jpg
+271,58,color,blue,images/mens casual footwear 7 8 9 blue.jpg
+272,58,color,dark blue,images/mens casual footwear 7 8 9 dark blue.jpg
+273,58,color,olive,images/mens casual footwear 7 8 9 olive.jpg
+274,59,color,black red,images/mens casual footwear 7 8 9 black red.jpg
+275,59,color,blue,images/mens casual footwear 7 8 9 blue.jpg
+276,59,color,dark blue,images/mens casual footwear 7 8 9 dark blue.jpg
+277,59,color,olive,images/mens casual footwear 7 8 9 olive.jpg
+278,60,color,black,images/mens casual footwear 10 black.jpg
+279,60,color,blue,images/mens casual footwear 10 blue.jpg
+280,60,color,red,images/mens casual footwear 10 red.jpg
+281,61,color,black,images/mens formal footwear 1 black.jpg
+282,61,color,brown,images/mens formal footwear 1 brown.jpg
+283,61,color,mat black,images/mens formal footwear 1 mat black.jpg
+284,61,color,tan,images/mens formal footwear 1 tan.jpg
+285,62,color,black,images/mens formal footwear 2 black.jpg
+286,62,color,brown,images/mens formal footwear 2 brown.jpg
+287,63,color,black,images/mens formal footwear 3 black.jpg
+288,63,color,brown,images/mens formal footwear 3 brown.jpg
+289,64,color,black,images/mens formal footwear 4 black.jpg
+290,64,color,brown,images/mens formal footwear 4 brown.jpg
+291,65,color,black,images/mens formal footwear 5 black.jpg
+292,65,color,coffee,images/mens formal footwear 5 coffee.jpg
+293,66,color,black,images/mens formal footwear 6 black.jpg
+294,66,color,tan,images/mens formal footwear 6 tan.jpg
+295,67,color,black,images/mens formal footwear 7 black.jpg
+296,67,color,brown,images/mens formal footwear 7 brown.jpg
+297,68,color,black,images/mens formal footwear 8 black.jpg
+298,68,color,brown,images/mens formal footwear 8 brown.jpg
+299,69,color,black,images/mens formal footwear 9 black.jpg
+300,69,color,brown,images/mens formal footwear 9 brown.jpg
+301,69,color,tan,images/mens formal footwear 9 tan.jpg
+302,70,color,brown,images/mens formal footwear 10 brown.jpg
+303,70,color,tan,images/mens formal footwear 10 tan.jpg
