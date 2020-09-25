@@ -4,8 +4,8 @@ from .base import *
 from decouple import config
 import dj_database_url
 
-DEBUG = True
-ALLOWED_HOSTS += ['http://domain.com']
+DEBUG = False
+ALLOWED_HOSTS += ['http://ecommerce-shopnow.herokuapp.com']
 WSGI_APPLICATION = 'home.wsgi.prod.application'
 
 DATABASES = {
