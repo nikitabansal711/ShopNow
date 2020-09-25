@@ -1,20 +1,15 @@
 '''Use this for production'''
 
 from .base import *
+from decouple import config
+import dj_database_url
 
 DEBUG = True
 ALLOWED_HOSTS += ['http://domain.com']
 WSGI_APPLICATION = 'home.wsgi.prod.application'
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db_name',
-        'USER': 'db_user',
-        'PASSWORD': 'db_password',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
+    'default': dj_database_url.config(default=config('DATABASE_URL'))
 }
 
 AUTH_PASSWORD_VALIDATORS = [
