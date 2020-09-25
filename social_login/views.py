@@ -10,5 +10,5 @@ class GoogleLogin(SocialLoginView):
 
 class GithubLogin(SocialLoginView):
     adapter_class = GitHubOAuth2Adapter
-    callback_url = 'http://localhost:3000'
+    callback_url = 'https://ecommerce-shopnow.herokuapp.com'
     client_class = OAuth2Client

@@ -17,7 +17,7 @@ class GithubSocialAuth extends Component {
           textButton="Login with Github"
           onSuccess={githubResponse}
           onFailure={githubResponse}
-          redirectUri="http://localhost:3000/"
+          redirectUri="https://ecommerce-shopnow.herokuapp.com"
         />
       </div>
     );

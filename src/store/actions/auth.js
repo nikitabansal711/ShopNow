@@ -63,7 +63,7 @@ export const authLogin = (username, password) => {
 
 export const googleLogin = async (accesstoken) => {
   await axios
-    .post("http://localhost:8000/rest-auth/google/", {
+    .post("https://ecommerce-shopnow.herokuapp.com/rest-auth/google/", {
       access_token: accesstoken,
     })
     .then((res) => {
@@ -86,7 +86,7 @@ export const googleLogin = async (accesstoken) => {
 
 export const githubLogin = async (accesstoken) => {
   await axios
-    .post("http://localhost:8000/rest-auth/github/", {
+    .post("https://ecommerce-shopnow.herokuapp.com/rest-auth/github/", {
       code: accesstoken,
     })
     .then((res) => {
@@ -111,7 +111,7 @@ export const authSignup = (username, email, password1, password2) => {
   return (dispatch) => {
     dispatch(authStart());
     axios
-      .post("http://127.0.0.1:8000/rest-auth/registration/", {
+      .post("https://ecommerce-shopnow.herokuapp.com/rest-auth/registration/", {
         username: username,
         email: email,
         password1: password1,
