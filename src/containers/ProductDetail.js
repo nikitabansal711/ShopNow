@@ -2,7 +2,7 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import axios from "axios";
-import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { CopyToClipboard } from "react-copy-to-clipboard";
 import {
   Button,
   Card,
@@ -20,10 +20,11 @@ import {
   Select,
   Divider,
 } from "semantic-ui-react";
-import { productDetailURL,
+import {
+  productDetailURL,
   addToCartURL,
   addWishlistURL,
-  removeWishlistURL
+  removeWishlistURL,
 } from "../constants";
 import { fetchCart } from "../store/actions/cart";
 import { authAxios } from "../utils";
@@ -62,9 +63,13 @@ class ProductDetail extends React.Component {
     this.setState({ loading: true });
     axios
       .get(productDetailURL(params.productID))
-      .then(res => {
-        this.setState({ data: res.data, loading: false, shareLink: currentRoute });
-        this.setState({itemImage: res.data.image});
+      .then((res) => {
+        this.setState({
+          data: res.data,
+          loading: false,
+          shareLink: currentRoute,
+        });
+        this.setState({ itemImage: res.data.image });
       })
       .catch((err) => {
         this.setState({ error: err, loading: false });
@@ -77,14 +82,15 @@ class ProductDetail extends React.Component {
       method: "post",
       url: addWishlistURL,
       data: data.id,
-      headers: { "Content-Type": "application/json" }
-    }).then(res => {
-      alert(res.data.status);
+      headers: { "Content-Type": "application/json" },
     })
-    .catch(err => {
-      this.setState({ error: err, loading: false });
-    })
-  }
+      .then((res) => {
+        alert(res.data.status);
+      })
+      .catch((err) => {
+        this.setState({ error: err, loading: false });
+      });
+  };
 
   handleRemoveFromWishlist = () => {
     const { data } = this.state;
@@ -92,14 +98,15 @@ class ProductDetail extends React.Component {
       method: "post",
       url: removeWishlistURL,
       data: data.id,
-      headers: { "Content-Type": "application/json" }
-    }).then(res => {
-      alert(res.data.status);
+      headers: { "Content-Type": "application/json" },
     })
-    .catch(err => {
-      this.setState({ error: err, loading: false });
-    })
-  }
+      .then((res) => {
+        alert(res.data.status);
+      })
+      .catch((err) => {
+        this.setState({ error: err, loading: false });
+      });
+  };
 
   handleFormatData = (formData) => {
     return Object.keys(formData).map((key) => {
@@ -149,18 +156,24 @@ class ProductDetail extends React.Component {
             <Dimmer active inverted>
               <Loader inverted>Loading</Loader>
             </Dimmer>
-            <Image src={require('./images/home2.jpeg')} />
+            <Image src={require("./images/home2.jpeg")} />
           </Segment>
         )}
-        <Grid columns={2} divided >
+        <Grid columns={2} divided>
           <Grid.Row>
             <Grid.Column>
               <Card
                 fluid
-                style={{width:555}}
-                image={<React.Fragment>
-                  <img src={this.state.itemImage} alt='' style={{maxWidth: 600, maxHeight: 700}}/>
-                </React.Fragment>}
+                style={{ width: 555 }}
+                image={
+                  <React.Fragment>
+                    <img
+                      src={this.state.itemImage}
+                      alt=""
+                      style={{ maxWidth: 600, maxHeight: 700 }}
+                    />
+                  </React.Fragment>
+                }
                 header={item.title}
                 meta={
                   <React.Fragment>
@@ -228,35 +241,39 @@ class ProductDetail extends React.Component {
                           <Icon name="thumbs down" />
                         </Button>
                         <CopyToClipboard text={this.state.shareLink}>
-                            <Button
-                              title="Share"
-                              icon
-                              floated="right"
-                              className="btn btn-primary"
-                              color="green"
-                              labelPosition="right"
-                              onClick={() => alert("Shared link copied to Clipboard.")}
-                            >
-                              Share
-                              <Icon name="share square" />
-                            </Button>
+                          <Button
+                            title="Share"
+                            icon
+                            floated="right"
+                            className="btn btn-primary"
+                            color="green"
+                            labelPosition="right"
+                            onClick={() =>
+                              alert("Shared link copied to Clipboard.")
+                            }
+                          >
+                            Share
+                            <Icon name="share square" />
+                          </Button>
                         </CopyToClipboard>
                       </React.Fragment>
                     ) : (
                       <React.Fragment>
                         <Divider />
                         <CopyToClipboard text={this.state.shareLink}>
-                            <Button
-                              title="Share"
-                              icon
-                              className="btn btn-primary"
-                              color="green"
-                              labelPosition="right"
-                              onClick={() => alert("Shared link copied to Clipboard.")}
-                            >
-                              Share
-                              <Icon name="share square" />
-                            </Button>
+                          <Button
+                            title="Share"
+                            icon
+                            className="btn btn-primary"
+                            color="green"
+                            labelPosition="right"
+                            onClick={() =>
+                              alert("Shared link copied to Clipboard.")
+                            }
+                          >
+                            Share
+                            <Icon name="share square" />
+                          </Button>
                         </CopyToClipboard>
                       </React.Fragment>
                     )}
@@ -291,10 +308,9 @@ class ProductDetail extends React.Component {
                     })}
                     {isAuthenticated ? (
                       <Form.Button primary>Add</Form.Button>
-                    ):(
+                    ) : (
                       alert("You are not logged in.")
                     )}
-                    
                   </Form>
                 </React.Fragment>
               )}
@@ -303,28 +319,31 @@ class ProductDetail extends React.Component {
               <Header as="h2">Try different variations</Header>
               {data.variations &&
                 data.variations.map((v) => {
-                  if(v.name!=='size')
-                  {
-                  return (
-                    <React.Fragment key={v.id}>
-                      <Header as="h3">{v.name}</Header>
-                      <Image.Group size='tiny'>
-                        {v.item_variations.map((iv) => {
-                          return (
-                            <Image src={`http://127.0.0.1:8000${iv.attachment}`} 
-                                    onMouseEnter={() => this.setState({itemImage: `http://127.0.0.1:8000${iv.attachment}`, itemColor:`${iv.value}`})} 
-                                    style={{height:100, width:100}}/>
-                          );
-                        })}
-                      </Image.Group>
-                      <p>
-                        {this.state.itemColor}
-                      </p>
-                    </React.Fragment>
-                  );
-                }
-                })
-              }
+                  if (v.name !== "size") {
+                    return (
+                      <React.Fragment key={v.id}>
+                        <Header as="h3">{v.name}</Header>
+                        <Image.Group size="tiny">
+                          {v.item_variations.map((iv) => {
+                            return (
+                              <Image
+                                src={`https://ecommerce-shopnow.herokuapp.com${iv.attachment}`}
+                                onMouseEnter={() =>
+                                  this.setState({
+                                    itemImage: `https://ecommerce-shopnow.herokuapp.com${iv.attachment}`,
+                                    itemColor: `${iv.value}`,
+                                  })
+                                }
+                                style={{ height: 100, width: 100 }}
+                              />
+                            );
+                          })}
+                        </Image.Group>
+                        <p>{this.state.itemColor}</p>
+                      </React.Fragment>
+                    );
+                  }
+                })}
             </Grid.Column>
           </Grid.Row>
         </Grid>
@@ -345,11 +364,6 @@ const mapStateToProps = (state) => {
   };
 };
 
-
 export default withRouter(
-  connect(
-    mapStateToProps,
-    mapDispatchToProps
-  )(ProductDetail)
+  connect(mapStateToProps, mapDispatchToProps)(ProductDetail)
 );
-
