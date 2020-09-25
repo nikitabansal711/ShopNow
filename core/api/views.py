@@ -456,9 +456,10 @@ class AddWishlistView(APIView):
                 return Response({"status": "Item already added in your wishlist."})
             else:
                 item_liked.liked_by.add(user_id)
-                return Response({"status":"Item added in your wishlist"})
+                return Response({"status": "Item added in your wishlist"})
         except:
             return Response({"status": "Item already added in your wishlist."})
+
     def get(self, request, *args, **kwargs):
         user_id = UserProfile.objects.get(user=self.request.user)
         user_id.item_set.clear()
@@ -475,7 +476,7 @@ class RemoveWishlistView(APIView):
             user_id = UserProfile.objects.get(user=self.request.user)
             item_liked = Item.objects.get(pk=data, liked_by=user_id)
             item_liked.liked_by.remove(user_id)
-            return Response({"status":"Item removed from your wishlist"})
+            return Response({"status": "Item removed from your wishlist"})
         except:
             return Response({"status": "This item is not in your wishlist"})
 
@@ -483,7 +484,7 @@ class RemoveWishlistView(APIView):
 class DisplayWishlistView(ListAPIView):
     permission_classes = (IsAuthenticated,)
     serializer_class = ItemSerializer
-    
+
     def get_queryset(self):
         user_id = UserProfile.objects.get(user=self.request.user)
         return Item.objects.filter(liked_by=user_id)
