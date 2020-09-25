@@ -2,7 +2,7 @@
 
 from .base import *
 
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS += ['http://domain.com']
 WSGI_APPLICATION = 'home.wsgi.prod.application'
 
