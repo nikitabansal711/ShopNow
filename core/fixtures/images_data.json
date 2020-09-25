@@ -7848,8 +7848,8 @@
         "model": "sites.Site",
         "pk": 1,
         "fields": {
-            "domain": "localhost:3000",
-            "name": "localhost:3000"
+            "domain": "ecommerce-shopnow.herokuapp.com",
+            "name": "ecommerce-shopnow.herokuapp.com"
         }
     }
 ]
