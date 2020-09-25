@@ -49,12 +49,6 @@ class ProductDetail extends React.Component {
     });
   };
 
-  handleChangeImage = (image) => {
-    this.setState({
-      itemImage: image,
-    });
-  };
-
   handleFetchItem = () => {
     const {
       match: { params },
@@ -70,6 +64,7 @@ class ProductDetail extends React.Component {
           shareLink: currentRoute,
         });
         this.setState({ itemImage: res.data.image });
+        this.setState({ originalImage: res.data.image });
       })
       .catch((err) => {
         this.setState({ error: err, loading: false });
@@ -334,6 +329,7 @@ class ProductDetail extends React.Component {
                                     itemColor: `${iv.value}`,
                                   })
                                 }
+                                onMouseLeave={() => this.setState({itemImage: this.state.originalImage, itemColor:`${iv.value}`})}
                                 style={{ height: 100, width: 100 }}
                               />
                             );

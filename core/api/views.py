@@ -613,7 +613,6 @@ class SendSmsEmail(APIView):
         sentsms = False
         try:
             data = json.loads(request.body.decode("utf-8"))
-            contact_number = "+91" + request.user.contact_number
             try:
                 subject = "ShopNow Team: Oreder Summary"
                 message = " Your order of {} at total price Rs.{} has successfully done \
@@ -628,6 +627,7 @@ thanks for using ShopNow. ".format(
             except Exception:
                 sentmail = False
             try:
+                contact_number = "+91" + request.user.contact_number
                 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
                 message = client.messages.create(
                     to=contact_number,

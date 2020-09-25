@@ -477,7 +477,7 @@ class AddressForm extends React.Component {
 
 class Profile extends React.Component {
   state = {
-    activeItem: "myprofile",
+    activeItem: "billingAddress",
     addresses: [],
     countries: [],
     userID: null,
