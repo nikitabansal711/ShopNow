@@ -217,9 +217,6 @@ class ProductList extends React.Component {
                     <span className="cinema">{item.category}</span>
                   </Item.Meta>
                   <Item.Description>{item.description}</Item.Description>
-                  <Item.Meta>
-                    <span className="cinema">Rs. {item.price} Only</span>
-                  </Item.Meta>
                   <Item.Extra>
                     {item.discount_price && (
                       <Label
@@ -235,6 +232,7 @@ class ProductList extends React.Component {
                       </Label>
                     )}
                   </Item.Extra>
+                  <Label color="red">Rs. {item.price} Only</Label>
                 </Item.Content>
               </Item>
             );

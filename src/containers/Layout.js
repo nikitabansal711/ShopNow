@@ -51,8 +51,8 @@ class CustomLayout extends React.Component {
           maxWidth: "1",
         }}
       >
-        <Segment inverted>
-        <Menu inverted pointing secondary>
+        <Segment inverted secondary size='huge'>
+        <Menu inverted fixed='top' size='huge'>
           <Container>
             {/* <Menu.Item>
              <img src={require('./images/images_1.jpeg')} alt="" style={{ height:25, width:75 }}/>
@@ -84,6 +84,7 @@ class CustomLayout extends React.Component {
                     text={ `Hi ${username} `}
                     className="link item"
                     pointing
+                    simple
                   >
                     <Dropdown.Menu>
                       <Dropdown.Item
