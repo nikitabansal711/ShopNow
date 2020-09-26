@@ -1,10 +1,6 @@
 # shopNow
 ![logo](Project_overview/shopNowlogo.jpg)
->## Team members:
-* Sai Kiran
-* Nikita Bansal
-* Sharad Mishra
-* Rahul Mishra
+
 ---
 
 >## Technologies used:
