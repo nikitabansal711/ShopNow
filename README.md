@@ -23,7 +23,8 @@
 >## About Project:
 ShopNow is an online e-commerce platform that enables user to browse different products under different categories and to buy them with available payment options after adding the desired items to the shopping cart.
 
-> Application url: https://ecommerce-shopnow.herokuapp.com/
+>## Application url: 
+ https://ecommerce-shopnow.herokuapp.com/
 
 ---
 
