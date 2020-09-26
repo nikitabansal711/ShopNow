@@ -68,7 +68,6 @@ ShopNow is an online e-commerce platform that enables user to browse different p
 * ```npm start```
 
 >### Drop the database:
-* Make sure you are in the root dir that is <strong>DataProject</strong>
 * ```python helper_db_dropper.py```
   
 ---
