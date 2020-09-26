@@ -58,8 +58,8 @@ ShopNow is an online e-commerce platform that enables user to browse different p
   
 >### Apply migrations:
 * ```python manage.py migrate```
->### Run the management command to load csv data into database
-* ```python manage.py dataLoader```
+>### Run the management command to load fixture data into database
+* ```python manage.py loaddata images_data`````
 
 >### Run the server
 * ```python manage.py runserver```
